@@ -228,7 +228,8 @@ body {
     }
 
     .feature-box {
-        padding-bottom: 30px;;
+        padding-bottom: 30px;
+        ;
     }
 
     .feature-box img {
@@ -362,6 +363,14 @@ body {
     .navigation {
         margin-bottom: 0;
     }
+
+    .top-box {
+        margin: 2%;
+    }
+
+    .btm-box {
+        margin: 2%;
+    }
 }
 
 @media only screen and (max-width:500px) {
@@ -395,19 +404,6 @@ body {
         margin-top: 15px;
     }
 
-}
-
-@media only screen and (max-width: 800px) {
-    .top-box {
-        margin: 2%;
-    }
-
-    .btm-box {
-        margin: 2%;
-    }
-}
-
-@media only screen and (max-width:500px) {
     .top-row {
         flex-direction: column;
     }
@@ -425,4 +421,3 @@ body {
         width: 100%;
     }
 }
-
